@@ -1,0 +1,412 @@
+{
+  "description": "EcoLink Product & Category Hierarchy Configuration. You can modify the categories, subcategories, product mappings, and images here anytime.",
+  "mainCategories": [
+    {
+      "id": "Plants",
+      "name": "Plants",
+      "description": "Live saplings, ornamental greenery, agricultural crops, and medicinal herbs",
+      "subcategories": [
+        "Decorative / Ornamental",
+        "Long-Term Yield",
+        "Short-Term Yield",
+        "Medicinal"
+      ]
+    },
+    {
+      "id": "Seeds",
+      "name": "Seeds",
+      "description": "Heirloom seeds, seed balls, and organic vegetable/flower seeds",
+      "subcategories": [
+        "Vegetable Seeds",
+        "Herbal Seeds",
+        "Flower Seeds / Seed Bombs"
+      ]
+    },
+    {
+      "id": "Fertilizers",
+      "name": "Fertilizers",
+      "description": "Organic vermicompost, bio-fertilizers, and soil enrichers",
+      "subcategories": [
+        "Solid Organic Compost",
+        "Liquid Bio-Fertilizers",
+        "Pest Deterrents & Cakes"
+      ]
+    },
+    {
+      "id": "Eco Products",
+      "name": "Eco Products",
+      "description": "Sustainable zero-waste lifestyle crafts, banana fibre, palm leaf, and coconut coir items",
+      "subcategories": [
+        "Banana Fibre Bags",
+        "Coconut Coir Products",
+        "Palm Leaf Plates & Tableware",
+        "Home Compost Kits",
+        "Zero-Waste Living"
+      ]
+    },
+    {
+      "id": "FMCG / Natural Products",
+      "name": "FMCG / Natural Products",
+      "description": "Farm-fresh natural consumables, honey, cold-pressed oils, millets, and herbal personal care",
+      "subcategories": [
+        "Raw Forest Honey",
+        "Cold-Pressed Virgin Oils",
+        "Ancient Millets & Flour",
+        "Herbal & Personal Care"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Peace Lily (Indoor Purifier)",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 350,
+      "image": "/assets/products/peace-lily.png",
+      "description": "Elegant white-blooming Peace Lily that thrives indoors. NASA-listed air-purifier."
+    },
+    {
+      "name": "Money Plant (Golden Pothos)",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 120,
+      "image": "/assets/products/money-plant.png",
+      "description": "Classic trailing Golden Pothos known for prosperity and powerful air filtration."
+    },
+    {
+      "name": "English Ivy (Air Purifier)",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 250,
+      "image": "/assets/products/english-ivy.png",
+      "description": "Vibrant green English Ivy. Highly efficient in filtering indoor air pollutants."
+    },
+    {
+      "name": "Fiddle Leaf Fig",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 650,
+      "image": "/assets/products/fiddle-leaf-fig.png",
+      "description": "Trendy indoor ornamental plant with large violin-shaped leaves for aesthetics."
+    },
+    {
+      "name": "Spider Plant (Chlorophytum)",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 180,
+      "image": "/assets/products/spider-plant.png",
+      "description": "Hardy air-purifying plant with arched variegated green and white leaves."
+    },
+    {
+      "name": "Bougainvillea (Magenta)",
+      "mainCategory": "Plants",
+      "category": "Decorative / Ornamental Plants",
+      "yieldType": "Decorative / Ornamental",
+      "price": 220,
+      "image": "/assets/products/bougainvillea-magenta.png",
+      "description": "Vibrant magenta flowering climber for balconies, terraces, and garden walls."
+    },
+    {
+      "name": "Hybrid Dwarf Coconut Sapling (Chowghat Green)",
+      "mainCategory": "Plants",
+      "category": "Long-Term Yield Plants",
+      "yieldType": "Long-Term Yield",
+      "price": 450,
+      "image": "/assets/products/coconut_sapling.png",
+      "description": "High-yielding dwarf coconut variety producing up to 250 coconuts per tree per year."
+    },
+    {
+      "name": "Alphonso Mango Grafted Sapling (Ratnagiri Variety)",
+      "mainCategory": "Plants",
+      "category": "Long-Term Yield Plants",
+      "yieldType": "Long-Term Yield",
+      "price": 380,
+      "image": "/assets/products/mango_sapling.png",
+      "description": "King of mangoes. Grafted sapling for high-yield orchard and homestead planting."
+    },
+    {
+      "name": "Indian Gooseberry (Amla / Nellikai) Grafted Sapling",
+      "mainCategory": "Plants",
+      "category": "Long-Term Yield Plants",
+      "yieldType": "Long-Term Yield",
+      "price": 220,
+      "image": "/assets/products/amla.png",
+      "description": "Hardy Vitamin C powerhouse with dependable high yields year after year."
+    },
+    {
+      "name": "Lucknow-49 Sardar Guava (High-Yield Commercial)",
+      "mainCategory": "Plants",
+      "category": "Long-Term Yield Plants",
+      "yieldType": "Long-Term Yield",
+      "price": 200,
+      "image": "/assets/products/sardar_guava.png",
+      "description": "Commercial guava yielding sweet white-fleshed fruit within 18 months."
+    },
+    {
+      "name": "Country Tomato Plant (Fruiting Ready Pot)",
+      "mainCategory": "Plants",
+      "category": "Short-Term Yield Plants",
+      "yieldType": "Short-Term Yield",
+      "price": 90,
+      "image": "/assets/products/organic-mint-plant.png",
+      "description": "Heirloom country tomato with high fruit set, ready for harvest in 30 days."
+    },
+    {
+      "name": "Organic Green Chilli (Kanthari) Sapling",
+      "mainCategory": "Plants",
+      "category": "Short-Term Yield Plants",
+      "yieldType": "Short-Term Yield",
+      "price": 75,
+      "image": "/assets/products/Kaanthari.png",
+      "description": "Extremely pungent native bird's eye chilli producing continuous harvests."
+    },
+    {
+      "name": "Fresh Palak (Spinach) Greens Growing Tub",
+      "mainCategory": "Plants",
+      "category": "Short-Term Yield Plants",
+      "yieldType": "Short-Term Yield",
+      "price": 130,
+      "image": "/assets/products/spinach.png",
+      "description": "Cut-and-come-again spinach ready for weekly harvests in compact balconies."
+    },
+    {
+      "name": "Native Purple Brinjal (Eggplant) Plant",
+      "mainCategory": "Seeds",
+      "category": "Seeds",
+      "yieldType": "None",
+      "price": 85,
+      "image": "/assets/products/eggplant.png",
+      "description": "High-yield traditional eggplant with tender, sweet flesh for regular curries."
+    },
+    {
+      "name": "Medicinal Neem Plant",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 150,
+      "image": "/assets/products/medicinal-neem-plant.png",
+      "description": "Naturally grown medicinal Neem sapling. High antibacterial property. Excellent for air purification."
+    },
+    {
+      "name": "Aloe Vera Plant (Large)",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 199,
+      "image": "/assets/products/aloe-vera-plant.png",
+      "description": "Mature Aloe Vera with thick succulent leaves packed with natural healing gel."
+    },
+    {
+      "name": "Moringa (Drumstick) Sapling",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 180,
+      "image": "/assets/products/moringa-sapling.png",
+      "description": "Fast-growing miracle Moringa sapling rich in vitamins, minerals, and amino acids."
+    },
+    {
+      "name": "Ashwagandha Sapling (Medicinal)",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 140,
+      "image": "/assets/products/ashwagandha-sapling.png",
+      "description": "Authentic Indian Ginseng root sapling for natural stress relief and immunity."
+    },
+    {
+      "name": "Brahmi Herb Plant",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 120,
+      "image": "/assets/products/brahmi-herb-plant.png",
+      "description": "Traditional memory-enhancing Ayurvedic creeping herb for brain wellness."
+    },
+    {
+      "name": "Lemon Grass Plant (Cymbopogon)",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 110,
+      "image": "/assets/products/lemon-grass-plant.png",
+      "description": "Aromatic citrus grass for detox herbal teas and natural mosquito repellent."
+    },
+    {
+      "name": "Vetiver (Khus) Grass Roots",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 160,
+      "image": "/assets/products/vetiver-grass-roots.png",
+      "description": "Earthy cooling aromatic vetiver grass roots for skin-care and natural water flavoring."
+    },
+    {
+      "name": "Curry Leaf Plant",
+      "mainCategory": "Plants",
+      "category": "Medicinal Plants",
+      "yieldType": "Medicinal",
+      "price": 95,
+      "image": "/assets/products/curry-leaf-plant.png",
+      "description": "Aromatic South Indian curry leaf plant essential for everyday healthy cooking."
+    },
+    {
+      "name": "Rare Organic Holy Basil (Tulsi) Seeds",
+      "mainCategory": "Seeds",
+      "category": "Seeds",
+      "yieldType": "None",
+      "price": 60,
+      "image": "/assets/products/tulsi-seeds.png",
+      "description": "Traditional Krishna Tulsi seeds. Pack of 200 high-germination heirloom seeds."
+    },
+    {
+      "name": "Heirloom Tomato Seed Collection",
+      "mainCategory": "Seeds",
+      "category": "Seeds",
+      "yieldType": "None",
+      "price": 150,
+      "image": "/assets/products/heirloom-tomato-seeds.png",
+      "description": "Mix of 5 rare heirloom tomato varieties hand-packed in eco paper envelopes."
+    },
+    {
+      "name": "Marigold Seed Bomb Pack (12 bombs)",
+      "mainCategory": "Seeds",
+      "category": "Seeds",
+      "yieldType": "None",
+      "price": 180,
+      "image": "/assets/products/marigold-seed-bombs.png",
+      "description": "Ready-to-toss seed bombs loaded with vibrant orange and yellow marigold seeds."
+    },
+    {
+      "name": "Bottle Gourd (Lauki) Seeds – Heirloom",
+      "mainCategory": "Seeds",
+      "category": "Seeds",
+      "yieldType": "None",
+      "price": 50,
+      "image": "/assets/products/bottle-gourd-seeds.png",
+      "description": "Traditional heirloom Bottle Gourd seeds with high germination rate (>90%)."
+    },
+    {
+      "name": "Premium Vermicompost Pack (5kg)",
+      "mainCategory": "Fertilizers",
+      "category": "Fertilizers",
+      "yieldType": "None",
+      "price": 220,
+      "image": "/assets/products/vermicompost-pack.png",
+      "description": "Pure worm castings enriched with beneficial microbes for lush plant growth."
+    },
+    {
+      "name": "Organic Jeevamrit Liquid Fertilizer (1L)",
+      "mainCategory": "Fertilizers",
+      "category": "Fertilizers",
+      "yieldType": "None",
+      "price": 140,
+      "image": "/assets/products/jeevamrit-liquid.png",
+      "description": "Traditional fermented bio-fertilizer that activates natural soil biology."
+    },
+    {
+      "name": "Neem Cake Fertilizer (3kg)",
+      "mainCategory": "Fertilizers",
+      "category": "Fertilizers",
+      "yieldType": "None",
+      "price": 190,
+      "image": "/assets/products/neem_cake_fertilizer.png",
+      "description": "Natural pest deterrent and nitrogen-rich organic soil conditioning cake."
+    },
+    {
+      "name": "Handcrafted Banana Fibre Bag",
+      "mainCategory": "Eco Products",
+      "category": "Banana Fibre Bags",
+      "yieldType": "None",
+      "price": 450,
+      "image": "/assets/products/banana-fibre-bag.png",
+      "description": "Sturdy, eco-friendly shopping and tote bag handwoven by women artisans."
+    },
+    {
+      "name": "Banana Fibre Pen Holder (Set of 2)",
+      "mainCategory": "Eco Products",
+      "category": "Banana Fibre Bags",
+      "yieldType": "None",
+      "price": 160,
+      "image": "/assets/products/banana-fibre-penholder.png",
+      "description": "Desk organizer made from braided natural banana fibre and recycled cardboard."
+    },
+    {
+      "name": "Palm Leaf Dinner Plates (Pack of 25)",
+      "mainCategory": "Eco Products",
+      "category": "Eco-Products",
+      "yieldType": "None",
+      "price": 280,
+      "image": "/assets/products/palm-leaf-plates.png",
+      "description": "100% biodegradable, heat-pressed areca palm leaf plates for parties and dining."
+    },
+    {
+      "name": "Coconut Coir Hanging Planters",
+      "mainCategory": "Eco Products",
+      "category": "Eco-Products",
+      "yieldType": "None",
+      "price": 240,
+      "image": "/assets/products/coconut-coir-planters.png",
+      "description": "Natural coconut coir basket planter with sturdy jute hanging ropes."
+    },
+    {
+      "name": "Home Compost Maker Kit",
+      "mainCategory": "Eco Products",
+      "category": "Eco-Products",
+      "yieldType": "None",
+      "price": 850,
+      "image": "/assets/products/home-compost-kit.png",
+      "description": "Aerated odor-free 2-tier bin kit with composting cocopeat brick."
+    },
+    {
+      "name": "Reusable Beeswax Food Wraps (Set of 3)",
+      "mainCategory": "Eco Products",
+      "category": "Eco-Products",
+      "yieldType": "None",
+      "price": 320,
+      "image": "/assets/products/beeswax-wraps.png",
+      "description": "Zero-waste plastic-free alternative to cling film for food storage."
+    },
+    {
+      "name": "Raw Organic Wild Forest Honey (500g Glass Jar)",
+      "mainCategory": "FMCG / Natural Products",
+      "category": "FMCG / Farm & Natural Products",
+      "yieldType": "None",
+      "price": 390,
+      "image": "/assets/products/beeswax-wraps.png",
+      "description": "100% raw unpasteurized forest honey sustainably harvested by tribal gatherers."
+    },
+    {
+      "name": "Wood Cold-Pressed Virgin Coconut Oil (1 Litre)",
+      "mainCategory": "FMCG / Natural Products",
+      "category": "FMCG / Farm & Natural Products",
+      "yieldType": "None",
+      "price": 320,
+      "image": "/assets/products/coconut-coir-planters.png",
+      "description": "Traditional Chekku wood cold-pressed oil from organic sun-dried coconuts."
+    },
+    {
+      "name": "Organic Barnyard & Foxtail Millet Flour (1kg Pack)",
+      "mainCategory": "FMCG / Natural Products",
+      "category": "FMCG / Farm & Natural Products",
+      "yieldType": "None",
+      "price": 145,
+      "image": "/assets/products/vermicompost-pack.png",
+      "description": "Nutrient-dense stone-ground gluten-free ancient millets for healthy meals."
+    },
+    {
+      "name": "Traditional Herbal Shikakai & Amla Hair Wash (250g)",
+      "mainCategory": "FMCG / Natural Products",
+      "category": "FMCG / Farm & Natural Products",
+      "yieldType": "None",
+      "price": 180,
+      "image": "/assets/products/vetiver-grass-roots.png",
+      "description": "Chemical-free Ayurvedic blend of shikakai, reetha, and amla for silky hair."
+    }
+  ]
+}
